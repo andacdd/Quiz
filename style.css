@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4b4b4b;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+    overflow: hidden;
+}
+.container .question{
+    display:flex;
+    width: 100%;
+    padding: 20px;
+    color: #0cbaba;
+    font-weight: bold;
+  
+}
+.container .answers{
+    /* margin-top: 100px; */
+    width: 100%;
+    padding: 20px;
+  
+   
+}
+ul{
+    list-style-type: none;
+  
+}
+li , li input{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn{
+    border: none;
+    background-color: rgb(24, 23, 23);
+    color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(48, 44, 44);
+    color: rgb(36, 1, 70);
+}
